@@ -45,10 +45,9 @@ Crie uma função com as seguintes características:
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
 function multiplicando(a, b, c){
-  if (a === undefined || b] === undefined || c === undefined) {
+  if (a === undefined || b === undefined || c === undefined)
     return 'Preencha todos os valores corretamente!';
-  }
-  else return a*b*c + 2
+  return (a*b*c) + 2
  }
 // Invoque a função criada acima, passando só dois números como argumento.
 multiplicando(2,3)
@@ -89,10 +88,10 @@ function newFunc (a, b, c) {
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 /* 
 
-console.log(newFunc()) = False
-console.log(newFunc(5)) = 5
-console.log(newFunc(5, 3)) = 8 
-console.log(newFunc(5, 1, 2)) = 4
+console.log(newFunc()); // False
+console.log(newFunc(5)); // 5
+console.log(newFunc(5, 3)); // 8 
+console.log(newFunc(5, 1, 2)); // 3
 
 */
 ```
